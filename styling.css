@@ -1,0 +1,173 @@
+body{
+    
+    font-family: 'Vollkorn', sans-serif;
+    position: relative;
+    background-size:cover;
+     background: url(landscape-5356009_1920.jpg) no-repeat center center;     background-attachment: fixed;
+}
+
+
+.navbar-custom {
+  background-color: #0088cc;
+  border-color: #0072ab;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#00aaff), to(#0088cc));
+  background-image: -webkit-linear-gradient(top, #00aaff, 0%, #0088cc, 100%);
+  background-image: -moz-linear-gradient(top, #00aaff 0%, #0088cc 100%);
+  background-image: linear-gradient(to bottom, #00aaff 0%, #0088cc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00aaff', endColorstr='#ff0088cc', GradientType=0);
+}
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #0072ab;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+  border-left: 1px solid #0072ab;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #c0c0c0;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #c0c0c0;
+  background-color: #0072ab;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#0072ab), to(#0094de));
+  background-image: -webkit-linear-gradient(top, #0072ab, 0%, #0094de, 100%);
+  background-image: -moz-linear-gradient(top, #0072ab 0%, #0094de 100%);
+  background-image: linear-gradient(to bottom, #0072ab 0%, #0094de 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0072ab', endColorstr='#ff0094de', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #0070a8;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #0072ab;
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c0c0c0;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c0c0c0;
+    background-color: #0072ab;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;s
+  }
+}
+.navbar-custom .navbar-link {
+  color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+  color: #c0c0c0;
+}
+
+/*home*/
+#home{     background-color: transparent;     color:white;     text-align: center;     padding-top: 15%; }
+#home h1{     margin-bottom: 30px;    }
+#home h2{ 
+    margin-bottom: 50px;    } 
+#home .btn{     background-color: rgb(29, 167, 179);     color: #fff;     font-size: 20px;     padding: 8px 20px;     border-radius: 8px; } 
+#home .btn:hover{     background-color: rgba(29, 167, 179, 0.5); } 
+
+/*project*/
+.container{     max-width: 1000px;}    #project{     color: #fff;     text-align: center;     padding-top: 140px; } #project h2{     font-weight: bold; } #project p{     font-size: 17px;     margin-bottom: 30px; } .projectImage{     height: 120px;    } 
+#project h1{     font-weight: bold; font-size:40px; color:#fff; padding-bottom:20px; }
+#project .btn{     background-color: rgb(29, 167, 179);     color: #fff;     font-size: 20px;     padding: 8px 20px;     border-radius: 8px;} 
+#project .btn:hover{     background-color: rgba(29, 167, 179, 0.5); } 
+#space1{
+    margin-top:63px;
+}
+#space2{
+    margin-top:41px;
+}
+
+/*project1*/
+.container{     max-width: 1000px;}    #project1{     color: #fff;     text-align: center;     padding-top: 100px; } #project1 h2{     font-weight: bold; } #project1 p{     font-size: 17px;     margin-bottom: 30px; } .project1Image{     height: 120px;    } 
+
+#project1 .btn{     background-color: rgb(29, 167, 179);     color: #fff;     font-size: 20px;     padding: 8px 20px;     border-radius: 8px;  } 
+#project1 .btn:hover{     background-color: rgba(29, 167, 179, 0.5); } 
+#space3{
+    margin-top:157px;
+}
+#space4{
+    margin-top:92px;
+}
+
+
+/* glimpse */
+#glimpse{     padding-top: 100px;    }
+#glimpse h1{
+    padding-bottom:30px;
+    color:white;
+    text-align:center;
+    font-weight: bold;
+}
+
+/* carousel */
+#myCarousel{     width: 60%;     margin: 0 auto; } 
+.carousel-inner .item img{     height: 400px;      margin: 0 auto; }
+
+.footer{     background-color: rgba(29,167,179,0.1);     color: #fff;     padding: 10px 0;     margin-top: 150px;     font-size: 15px; } 
+
+
